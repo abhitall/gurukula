@@ -1,6 +1,6 @@
 {% extends "bootstrap/base.html" %}
 
-{% block title %}The Anti-Social Network{% endblock %}
+{% block title %}GURUKULA{% endblock %}
 
 {% block head %}
 {{ super() }}
@@ -22,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-anti brand" href="{{ url_for('main.index') }}">The Anti-Social Network</a>
+            <a class="navbar-anti brand" href="{{ url_for('main.index') }}">GURUKULA</a>
         </div>
         <div class="navbar-collapse collapse">
 
@@ -80,5 +80,3 @@
 {{ super() }}
 {{ moment.include_moment() }}
 {% endblock %}
-
-
